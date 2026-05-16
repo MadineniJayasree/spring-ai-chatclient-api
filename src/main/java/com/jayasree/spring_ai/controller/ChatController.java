@@ -18,7 +18,7 @@ public class ChatController {
     public String generate(
             @RequestParam(
                     value = "message",
-                    defaultValue = "Tell me a joke"
+                    defaultValue = "Hello, Who are you?What are you up to?"
             ) String message) {
 
         return chatClient.prompt()
